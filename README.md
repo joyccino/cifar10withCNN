@@ -1,4 +1,4 @@
-# cifar10withCNN
+# cifar10 with CNN
 
 * Download final outcomes (extracted model1~5 and charts) [here](https://drive.google.com/drive/folders/1uJK7ztqqZPOjRRbhCTbxzJhha-H4ns2h?usp=sharing
 ) <br><br>
