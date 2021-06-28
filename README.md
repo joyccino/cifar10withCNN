@@ -1,6 +1,6 @@
 # cifar10withCNN
 
-* Download the final outcomes (extracted model1~5 and charts) [here](https://drive.google.com/file/d/10sevADlVMm4VqWqCVP-rAj5DNYyuOnuz/view?usp=sharing
+* Download final outcomes (extracted model1~5 and charts) [here](https://drive.google.com/file/d/10sevADlVMm4VqWqCVP-rAj5DNYyuOnuz/view?usp=sharing
 ) <br><br>
 <b> Model 1: Basic CNN </b>
 
