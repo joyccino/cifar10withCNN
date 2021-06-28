@@ -24,7 +24,7 @@
 ![Screen Shot 2021-06-28 at 6 00 04 PM](https://user-images.githubusercontent.com/67300266/123609535-b289a500-d83a-11eb-9757-ba3fe25ac339.png)
 * Validation accuracy and Validation loss: <br>
 ![model3](https://user-images.githubusercontent.com/67300266/123609580-bddcd080-d83a-11eb-9db7-726d064b17e5.png)
-* Feedback: Each model performance is similar to each other => Overfitting issue is now resolved.
+* Feedback: Each model performance is similar to each other => Overfitting issue is almost resolved.
 * Plan for model 4: Add data augmentation to increase accuracy.
 
 <b> Model 4: Model 3 after Data Augmentation </b>
