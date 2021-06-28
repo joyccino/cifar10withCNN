@@ -6,7 +6,7 @@
 
 * Structure: <br>
 ![Screen Shot 2021-06-28 at 5 57 39 PM](https://user-images.githubusercontent.com/67300266/123609147-60488400-d83a-11eb-9699-c6100a82eacd.png)
-* Validation accuracy andValidation loss: <br>
+* Validation accuracy and Validation loss: <br>
 ![model1](https://user-images.githubusercontent.com/67300266/123609206-6d657300-d83a-11eb-9e4c-8744a5cd395a.png)
 * Feedback: Model 1 is overfitted.
 * Plan for model 2 and 3: Try out widely used methods (Drop out and Batch normalisation) to prevent overfitting.
@@ -14,7 +14,7 @@
 <b> Model 2: CNN with Dropout </b>
 * Structure: <br>
 ![Screen Shot 2021-06-28 at 5 58 52 PM](https://user-images.githubusercontent.com/67300266/123609330-8706ba80-d83a-11eb-8030-2480f4c5ef22.png)
-* Validation accuracy andValidation loss: <br>
+* Validation accuracy and Validation loss: <br>
 ![model2](https://user-images.githubusercontent.com/67300266/123609365-8ec65f00-d83a-11eb-9303-b3f904545fb7.png)
 * Feedback: Overfitting issue has been resolved.
 * Plan for model 3: Try out Batch normalisation and compare the result with the performance of model 2.
