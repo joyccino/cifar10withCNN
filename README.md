@@ -36,7 +36,7 @@
 There are 2 possible reasons for this: <br>
 Premise 1: Data augmentation has only been applied for train data, which means validation data consists of easier (original) examples. <br>
 Premise 2: Regardless of Data augmentation, validation data consists of easier examples by chance. <br>
-Before we can conclude this with premise 1, it should be clarified that there is no problem with data split.
+Before we can defense of premise 1, it should be clarified that there is no problem with data split.
 * Plan for model 5: Split the data again to check if premise 2 is valid.
 
 <b> Model 5: Changed np.random.seed + CNN + Data augmentation </b>
