@@ -33,10 +33,10 @@
 * Validation accuracy and Validation loss: <br>
 ![model4](https://user-images.githubusercontent.com/67300266/123610703-cb468a80-d83b-11eb-86b8-75dfd54fd35c.png)
 * Feedback: Generally train accuracies are higher than validation accuracy, but opposite outcome is shown for model 4. <br>
-There are 2 possible reason for this: <br>
+There are 2 possible reasons for this: <br>
 Premise 1: Data augmentation has only been applied for train data, which means validation data consists of easier (original) examples. <br>
 Premise 2: Regardless of Data augmentation, validation data consists of easier examples by chance. <br>
-Before we can conclude this with reason 1, it should be clarified that there is no problem with data split.
+Before we can conclude this with premise 1, it should be clarified that there is no problem with data split.
 * Plan for model 5: Split the data again to check if premise 2 is valid.
 
 <b> Model 5: Changed np.random.seed + CNN + Data augmentation </b>
