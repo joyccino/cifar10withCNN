@@ -1,7 +1,6 @@
 # cifar10 with CNN
 
-* Download final outcomes (extracted model1~5 and charts) [here](https://drive.google.com/drive/folders/1uJK7ztqqZPOjRRbhCTbxzJhha-H4ns2h?usp=sharing
-). <br><br>
+* Download final outcomes (extracted model1~5 and charts) [here](https://drive.google.com/drive/folders/1uJK7ztqqZPOjRRbhCTbxzJhha-H4ns2h?usp=sharing). <br><br>
 <b> Model 1: Basic CNN </b>
 
 * Structure: <br>
@@ -50,13 +49,13 @@ Before we can defense of premise 1, it should be clarified that there is no prob
 5) As we can see there is no dramatic difference for model 5, it can be concluded that the image examples for train were relatively harder than for validation as a result of data augmentation.
 
 # References
-* Basic example of cifar10 and CNN from Kaggle: https://www.kaggle.com/roblexnana/cifar10-with-cnn-for-beginer
-* Batch Normalisation: https://sonsnotation.blogspot.com/2020/11/8-normalization.html
-* Dropout1: https://jjeongil.tistory.com/578
-* Dropout2: https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=laonple&logNo=220542170499
-* Early stopping: https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/EarlyStopping
-* Greater validation accuracy than train accuracy: https://stackoverflow.com/questions/48845354/why-is-validation-accuracy-higher-than-training-accuracy-when-applying-data-augm
-* Image Augmentation: http://machinelearningkorea.com/2019/05/19/image-augmentation-%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%ED%9B%88%EB%A0%A8%EC%9A%A9-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%8A%98%EB%A6%AC%EA%B8%B0-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%B9%98%ED%8A%B8/
-* Paper for Dropout: https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf
+* [Basic example of cifar10 and CNN from Kaggle](https://www.kaggle.com/roblexnana/cifar10-with-cnn-for-beginer)
+* [Batch Normalisation](https://sonsnotation.blogspot.com/2020/11/8-normalization.html)
+* [Dropout1](https://jjeongil.tistory.com/578)
+* [Dropout2](https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=laonple&logNo=220542170499)
+* [Early stopping](https://www.tensorflow.org/api_docs/python/tf/keras/callbacks/EarlyStopping)
+* [Greater validation accuracy than train accuracy](https://stackoverflow.com/questions/48845354/why-is-validation-accuracy-higher-than-training-accuracy-when-applying-data-augm)
+* [Image Augmentation](http://machinelearningkorea.com/2019/05/19/image-augmentation-%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%ED%9B%88%EB%A0%A8%EC%9A%A9-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EB%8A%98%EB%A6%AC%EA%B8%B0-%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EC%B9%98%ED%8A%B8/)
+* [Paper for Dropout](https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf)
 
 
