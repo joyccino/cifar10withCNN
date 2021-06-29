@@ -43,6 +43,6 @@ Before we can defense of premise 1, it should be clarified that there is no prob
 ![model5](https://user-images.githubusercontent.com/67300266/123612729-c71b6c80-d83d-11eb-837f-091019343a4a.png)
 * Feedback: Compared to model 4, there's no big difference in the gap for both Losses and Accuracies.
 # Conclusion
-1) As the basic CNN model keeps overfitting, dropout and BN (Batch normalisation) have been applied to avoid the issue. <br>
+1) As the basic CNN model (= model 1) keeps overfitting, dropout and BN (Batch normalisation) have been applied to avoid the issue. <br>
 2) Data augmentation is added to increase validation accuracy. <br>
 3) We can see the validation loss is less than train's. This can be concluded that the image examples for train were relatively harder than for validation as a result of data augmentation.
