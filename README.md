@@ -16,7 +16,7 @@
 ![Screen Shot 2021-06-28 at 5 58 52 PM](https://user-images.githubusercontent.com/67300266/123609330-8706ba80-d83a-11eb-8030-2480f4c5ef22.png)
 * Validation accuracy and Validation loss: <br>
 ![model2](https://user-images.githubusercontent.com/67300266/123609365-8ec65f00-d83a-11eb-9303-b3f904545fb7.png)
-* Feedback: Dropout contributes to avoid overfitting
+* Feedback: Dropout contributes to avoid overfitting.
 * Plan for model 3: Try out Batch normalisation and compare the result with the performance of model 2.
 
 <b> Model 3: CNN with Dropout and Batch Normalisation </b>
