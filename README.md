@@ -39,7 +39,7 @@ Premise 2: Regardless of Data augmentation, validation data consists of easier e
 Before we can defense of premise 1, it should be clarified that there is no problem with data split.
 * Plan for model 5: Split the data again to check if premise 2 is valid.
 
-<b> Model 5: Changed np.random.seed + CNN + Data augmentation </b>
+<b> Model 5: Changed np.random.seed + Data augmentation </b>
 ![model5](https://user-images.githubusercontent.com/67300266/123612729-c71b6c80-d83d-11eb-837f-091019343a4a.png)
 * Feedback: Compared to model 4, there's no big difference in the gap for both Losses and Accuracies.
 # Conclusion
