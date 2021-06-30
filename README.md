@@ -31,7 +31,7 @@
 ![Screen Shot 2021-06-28 at 6 06 08 PM](https://user-images.githubusercontent.com/67300266/123610410-8884b280-d83b-11eb-83f2-c6331be70608.png)
 * Validation accuracy and Validation loss: <br>
 ![model4](https://user-images.githubusercontent.com/67300266/123610703-cb468a80-d83b-11eb-86b8-75dfd54fd35c.png)
-* Feedback: In general, train accuracies are higher than validation accuracy, but opposite outcome is shown for model 4. <br>
+* Feedback: In general, train accuracies are higher than validation accuracy, but opposite outcome is shown in model 4 outcomes. <br>
 There are 2 possible reasons for this: <br>
 Premise 1: Data augmentation has only been applied for train data, which means validation data consists of easier (original) examples. <br>
 Premise 2: Regardless of Data augmentation, validation data consists of easier examples by chance. <br>
