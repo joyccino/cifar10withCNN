@@ -46,8 +46,7 @@ Before we can defense of premise 1, it should be clarified that there is no prob
 * For model 4, data augmentation is added to increase validation accuracy. <br>
 * As we can see in model 4 outcomes, the validation loss is less than train's. <br>
 * For model 5, np.random.seed value is changed to check if there's an issue with data split. <br>
-* As we can see there is no dramatic difference for model 5, it can be concluded that the image examples for train were relatively harder than for validation as a result of data augmentation.
-
+* As we can see there is no dramatic difference in model 5 outcomes, it can be concluded that the image examples for train were relatively harder than for validation as a result of data augmentation.
 # References
 * [Basic example of cifar10 and CNN from Kaggle](https://www.kaggle.com/roblexnana/cifar10-with-cnn-for-beginer)
 * [Batch Normalisation](https://sonsnotation.blogspot.com/2020/11/8-normalization.html)
