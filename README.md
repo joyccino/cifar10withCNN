@@ -8,7 +8,7 @@
 * Validation accuracy and Validation loss: <br>
 ![model1](https://user-images.githubusercontent.com/67300266/123609206-6d657300-d83a-11eb-9e4c-8744a5cd395a.png)
 * Feedback: Model 1 is overfitted.
-* Plan for model 2 and 3: Try out widely used methods (Drop out and Batch normalisation) to prevent overfitting.
+* Plan for model 2 and 3: Try out widely used methods (Dropout and Batch normalisation) to prevent overfitting.
 
 <b> Model 2: CNN with Dropout </b>
 * Structure: <br>
@@ -31,7 +31,7 @@
 ![Screen Shot 2021-06-28 at 6 06 08 PM](https://user-images.githubusercontent.com/67300266/123610410-8884b280-d83b-11eb-83f2-c6331be70608.png)
 * Validation accuracy and Validation loss: <br>
 ![model4](https://user-images.githubusercontent.com/67300266/123610703-cb468a80-d83b-11eb-86b8-75dfd54fd35c.png)
-* Feedback: Generally train accuracies are higher than validation accuracy, but opposite outcome is shown for model 4. <br>
+* Feedback: In general, train accuracies are higher than validation accuracy, but opposite outcome is shown for model 4. <br>
 There are 2 possible reasons for this: <br>
 Premise 1: Data augmentation has only been applied for train data, which means validation data consists of easier (original) examples. <br>
 Premise 2: Regardless of Data augmentation, validation data consists of easier examples by chance. <br>
@@ -44,7 +44,7 @@ Before we can defense of premise 1, it should be clarified that there is no prob
 # Conclusion
 * As the basic CNN model (= model 1) keeps overfitting, dropout and BN (Batch normalisation) have been applied to avoid the issue. <br>
 * For model 4, data augmentation is added to increase validation accuracy. <br>
-* For model 4, the validation loss is less than train's. <br>
+* As we can see in model 4 outcomes, the validation loss is less than train's. <br>
 * For model 5, np.random.seed value is changed to check if there's an issue with data split. <br>
 * As we can see there is no dramatic difference for model 5, it can be concluded that the image examples for train were relatively harder than for validation as a result of data augmentation.
 
